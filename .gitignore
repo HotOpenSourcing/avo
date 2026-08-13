@@ -69,7 +69,6 @@ config/settings/*.local.yml
 config/environments/*.local.yml
 
 coverage/
-.vscode
 
 avo*.gem
 
@@ -78,11 +77,10 @@ app/assets/builds
 TAGS
 brakeman_results.html
 
-.env
-.env.test
 *~
 
 # Written by `rails g avo:skills`, by hand or from its specs. Generated output.
 spec/dummy/.agents/
 spec/dummy/.claude/
 spec/dummy/.cursor/
+config.bat
